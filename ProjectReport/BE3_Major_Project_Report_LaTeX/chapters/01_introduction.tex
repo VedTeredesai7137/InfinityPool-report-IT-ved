@@ -9,15 +9,15 @@ The software these teams were using didn't really help as much. ATS software, HR
 \section{Motivation}
 The current challenges with tools are no mere nuisance. When it comes to hiring, keyword screening has been found to be useful in rewarding those candidates who know how to craft a resume rather than the best candidates for the position Gan et al. \cite{gan} showed that an LLM-based pipeline can screen resumes eleven times faster than a human and reach a respectable F1 score, but their system was tested only on IT-sector data and could not generate rubrics from a job description or conduct an interview. Wilson and Caliskan \cite{wilson} found that embedding-based screening favoured White-associated names in 85 out of every 100 cases and that Black male candidates were disadvantaged in up to 100\% of test cases. Mu et al. \cite{mu} then showed that adversarial content hidden inside a resume could manipulate LLM screening more than 80\% of the time, and that the best available defences reduced this by only around a quarter. If a recruiter is given a ranked shortlist without a note, there is nothing they can do to detect these mistakes until they impact a real life employee.
 
-In marketing, content that is sent out without a proper review can cause harm to a brand that can take months to fix. Research for podcasts can also result in a reputation risk if the host or podcast relies on unsourced or misattributed claims \cite{cove,marketingfm}. Whether it's the social, or the finance, or the other aspect of the business, the data required to work is in different systems with different logins, API, rate limits, quirks etc. The task of compiling everything in one place is quite a full time occupation.
+In marketing, content that is sent out without a proper review can cause harm to a brand that can take months to fix. Research for podcasts can also result in a reputation risk if the host or podcast relies on unsourced or misattributed claims \cite{marketingfm,cove}. Whether it's the social, or the finance, or the other aspect of the business, the data required to work is in different systems with different logins, API, rate limits, quirks etc. The task of compiling everything in one place is quite a full time occupation.
 
 What teams really need is something that can process the repetitive parts end-to-end, something which could be explained unambiguously to a person for purposes of review and trusted, and then wait for the person to sign off on it before some important thing occurs. This project is meant to fill that void.
 
 \section{Aim and Objectives}
-\RunIn{Aim :}
+\RunIn{Aim:}
 \textbf{\ProjectTitle}'s mission is to create an integrated multi-agent AI platform that handles repetitive, high-volume components of HR recruitment, marketing content production, podcast guest research and enterprise data integration — leaving a human reviewer to handle each decision that matters. The platform is built with a series of specialized LLM agents, approved by the approval gates, and supported by a retrieval-augmented knowledge layer, with audit logs and controls in between.
 \vspace{12pt}
-\RunIn{Objectives :}
+\RunIn{Objectives:}
 The specific objectives of the project are:
 \begin{itemize}
   \item To build HR workflows that generate weighted rubrics from a job description, screen and score resumes with cited evidence, conduct AI-assisted interviews and produce a ranked shortlist for the recruiter to review, alongside assistants that answer onboarding, leave and HR policy questions.

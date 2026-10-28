@@ -186,7 +186,6 @@ REQ-08 & Test execution & No post is published when the approval queue item is i
 REQ-09 & Demonstration & A guest briefing is produced with claims labelled as fact, allegation or opinion, each with a cited URL. \\ \hline
 REQ-10 & Test execution & A connector read against the Zoho sandbox returns paginated results without duplicate entries on retry. \\ \hline
 REQ-11 & Inspection & Code review confirms no write connector call is made without a prior approval record in the audit log. \\ \hline
-REQ-12 & Inspection & Audit log entries for a sample run contain prompt hash, tool calls, source URLs, reviewer ID and final output ID. \\ \hline
 \end{tabular}
 
 %------------------------------------------------------------------
@@ -199,13 +198,13 @@ REQ-12 & Inspection & Audit log entries for a sample run contain prompt hash, to
 \noindent\begin{tabular}{|p{0.22\textwidth}|p{0.70\textwidth}|}
 \hline
 \textbf{Stakeholder Need} & \textbf{Mapped Requirements} \\ \hline
-Reduce recruiter time on resume review & REQ-02, REQ-03, REQ-04, REQ-12 \\ \hline
-Fair, explainable candidate scoring & REQ-02, REQ-03, REQ-05, REQ-12 \\ \hline
+Reduce recruiter time on resume review & REQ-02, REQ-03, REQ-04 \\ \hline
+Fair, explainable candidate scoring & REQ-02, REQ-03, REQ-05 \\ \hline
 Prevent adversarial resume manipulation & REQ-03, REQ-06 (security scan) \\ \hline
 Maintain brand consistency in marketing & REQ-07, REQ-08 \\ \hline
 Fact-safe podcast guest briefings & REQ-09 \\ \hline
 Secure enterprise data exchange & REQ-10, REQ-11, REQ-06 (security) \\ \hline
-Full audit trail for every AI decision & REQ-11, REQ-12 \\ \hline
+Full audit trail for every AI decision & REQ-11 \\ \hline
 \end{tabular}
 
 \vspace{10pt}
